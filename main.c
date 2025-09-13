@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int calc(int x){
-    return x*2;
+    x*=2;
+    return x;
 }
 
 int main(){
