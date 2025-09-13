@@ -7,6 +7,7 @@ Int calc(int x){
 
 int main(){
     printf("hello!!!");
+    calc();
+
     return 0;
-    printf("%d", calc(2));
 }
