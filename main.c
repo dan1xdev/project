@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int calc(x){
+    x*=2;
     return x;
 }
 
