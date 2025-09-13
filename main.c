@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int calc(int x){
+Int calc(int x){
     x*=2;
     return x;
 }
@@ -8,4 +8,5 @@ int calc(int x){
 int main(){
     printf("hello!!!");
     return 0;
+    printf("%d", calc(2));
 }
