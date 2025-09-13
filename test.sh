@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# Компилируем C файл
 gcc -o program main.c
 
-# Запускаем программу и проверяем код возврата
 if ./program; then
-    exit 0  # хороший коммит
+    exit 0 
 else
-    exit 1  # плохой коммит
+    exit 1 
 fi
