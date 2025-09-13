@@ -8,4 +8,5 @@ Int calc(x){
 int main(){
     printf("hello!!!");
     return 0;
+    calc(2);
 }
